@@ -17,6 +17,9 @@ jobs:
       run: sudo apt-get install -y doxygen
 
     - name: Generate Documentation
+      run: doxygen -g
+
+    - name: Run Documentation
       run: doxygen
 
     - name: Archive Documentation
