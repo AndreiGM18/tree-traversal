@@ -9,7 +9,8 @@ def my_tree():
     tree.add(5)
     tree.add(1)
     tree.add(2)
-    
+    tree.add(3)
+ 
     return tree
 
 def test_find_existing(my_tree):
