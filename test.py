@@ -8,7 +8,8 @@ def my_tree():
     tree.add(10)
     tree.add(5)
     tree.add(1)
-
+    tree.add(2)
+    
     return tree
 
 def test_find_existing(my_tree):
